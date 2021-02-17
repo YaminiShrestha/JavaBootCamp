@@ -33,16 +33,13 @@ public class Ques4 {
 
     public static void main(String args[]) {
         // instantiating Singleton class with variable x
-        Singleton x = Singleton.getInstance();
+        Singleton singleton1 = Singleton.getInstance();
 
         // instantiating Singleton class with variable y
-        Singleton y = Singleton.getInstance();
+        Singleton singleton2 = Singleton.getInstance();
 
-        // instantiating Singleton class with variable z
-        Singleton z = Singleton.getInstance();
-
-        System.out.println("x instance is " + x.singletonInput);
-        System.out.println("y instance is " + y.singletonInput);
+        System.out.println("Singleton1 instance is " + singleton1.singletonInput);
+        System.out.println("Singleton2 instance is " + singleton2.singletonInput);
 
     }
 }
