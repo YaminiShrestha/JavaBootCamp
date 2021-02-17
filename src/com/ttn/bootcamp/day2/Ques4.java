@@ -32,10 +32,10 @@ public class Ques4 {
 // Driver Class
 
     public static void main(String args[]) {
-        // instantiating Singleton class with variable x
+      
         Singleton singleton1 = Singleton.getInstance();
 
-        // instantiating Singleton class with variable y
+        
         Singleton singleton2 = Singleton.getInstance();
 
         System.out.println("Singleton1 instance is " + singleton1.singletonInput);
